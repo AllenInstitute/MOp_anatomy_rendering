@@ -50,7 +50,7 @@ cell_colors = {'18453_4067_x16924_y5288':'cyan',
 'AA0649':'red',
 'AA0898':'red'}
 
-
+# Load MOp annotation
 im = io.imread('C://Users/maithamn/Downloads/MOpul_Binary_528.tif')
 im += np.flip(im,axis=2)
 
